@@ -19,5 +19,8 @@
   "homepage": "https://github.com/andrewdudu/timestamp-microservice#readme",
   "devDependencies": {
     "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "router-express": "^1.5.2"
   }
 }
