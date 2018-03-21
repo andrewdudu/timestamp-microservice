@@ -21,7 +21,9 @@
     "nodemon": "^1.17.2"
   },
   "dependencies": {
-    "router-express": "^1.5.2",
-    "moment": "^2.10.6"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "moment": "^2.10.6",
+    "router-express": "^1.5.2"
   }
 }
