@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
     "express": "^4.16.3",
     "moment": "^2.10.6",
     "router-express": "^1.5.2"
