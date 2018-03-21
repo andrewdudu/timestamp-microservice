@@ -6,14 +6,17 @@ const index = require('./controllers/index');
 const timestamps = require('./controllers/timestamps');
 
 var ejs = require('ejs');
+var port = process.env.PORT || 8080;
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.listen(3001,'localhost');
-console.log('Listening on 3001');
-app.get('/', index);
+app.listen(port, function (){
+  console.log('Listening on 3001');
+  app.get('/', index);
 
-app.get('/:input', timestamps);
+  app.get('/:input', timestamps);
+
+});
 
 
